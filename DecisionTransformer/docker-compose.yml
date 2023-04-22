@@ -6,7 +6,7 @@ services:
       context: .
       dockerfile: Dockerfile
     container_name: decision-transformer
-    #runtime: nvidia
+    runtime: nvidia
     tty: true
     volumes:
       - $PWD/Breakout:/
