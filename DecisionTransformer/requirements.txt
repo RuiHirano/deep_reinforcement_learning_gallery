@@ -2,3 +2,8 @@ tensorflow
 psutil
 gym
 ray
+dopamine
+dopaminekit
+dopamine-rl
+lz4
+gym[atari,accept-rom-license]==0.21.0

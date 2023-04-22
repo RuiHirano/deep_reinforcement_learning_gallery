@@ -5,6 +5,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get -y install \
     git \
     vim \
+    libgl1-mesa-dev \
     && rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt .
