@@ -199,5 +199,5 @@ def train(env_id, dataset_dir, num_data_files,  num_parallel_calls,
 
 if __name__ == "__main__":
     env_id = "Breakout"
-    dataset_dir = "/mnt/disks/data/Breakout/1/replay_logs"
+    dataset_dir = "./Breakout/1/replay_logs"
     train(env_id="Breakout", dataset_dir=dataset_dir, num_data_files=48, num_parallel_calls=12, resume_from=None)

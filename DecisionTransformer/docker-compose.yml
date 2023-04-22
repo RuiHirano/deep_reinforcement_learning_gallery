@@ -1,0 +1,12 @@
+version: '3.5'
+services:
+  decision-transformer:
+    image: decision-transformer:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: decision-transformer
+    #runtime: nvidia
+    tty: true
+    volumes:
+      - $PWD/Breakout:/
